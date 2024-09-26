@@ -17,5 +17,14 @@ let calculations = studentsRoll.map(addRoll);
 
 console.log(...calculations)
 
+// filter in js with array 
+
+
+let myFriends = ['Sakib', 'Rakib','Tamim','Hayat','Apon','Shanto','Akando','Masud','Ripon','Masum','Mustafiz'];
+
+let elements = myFriends.filter(newArray => newArray.length > 5);
+
+console.log(elements)
+
 
 
